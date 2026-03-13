@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Application</title>
+	<!-- Ensures correct scaling on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Employees</title>
+	<link rel="stylesheet" href="../assets/css/main.css">
 	<script defer src="../assets/js/drc.js"></script>
 	<script defer src="../assets/js/main.js"></script>
-	<link rel="stylesheet" href="../assets/css/main.css">
 </head>
 <body>
 	<h1>Employees</h1>
 	<br>
 	<p><a href="../jobs/">Get hired...</a></p>
 	<br>
+	<!-- Owner profile -->
 	<h3>The Owner</h3>
 	<h4>Profile:</h4>
 	<section id="ownerprofile">
@@ -22,9 +25,10 @@
 		<li>Managing the company</li>
 	</ul>
 	<br>
-		<h3>A newcomer</h3>
+	<!-- Additional employee profile -->
+	<h3>A newcomer</h3>
 	<h4>Profile:</h4>
-	<section id="ownerprofile">
+	<section id="newcomerprofile">
 	<p><small><b>no profile yet...</b></small></p>
 	</section>
 	<h4>Jobs:</h4>
@@ -35,7 +39,7 @@
 ==================TEMPLATE==================
 	<h3>(name/nickname)</h3>
 	<h4>Profile:</h4>
-	<section id="ownerprofile">
+	<section id="(name)profile">
 	(profile image if no image do this code: <p><small><b>no profile yet...</b></small></p>)
 	</section>
 	<h4>Jobs:</h4>
@@ -45,3 +49,4 @@
 ==================END OF TEMPLATE==================
 -->
 </body>
+</html>

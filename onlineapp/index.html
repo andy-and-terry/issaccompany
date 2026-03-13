@@ -2,22 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!-- Ensures correct scaling on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Application</title>
+	<link rel="stylesheet" href="assets/css/main.css">
 	<script defer src="assets/js/drc.js"></script>
 	<script defer src="assets/js/main.js"></script>
-	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<img src="assets/img/logo.png">
+	<!-- Company logo -->
+	<img src="assets/img/logo.png" alt="Company Logo">
 	<br>
 	<h3>What we have here:</h3>
+	<!-- Navigation list for available application sections -->
 	<ul>
-		<li><a href="lessons/">Lessons...</a></li>
-		<ul>
-			<li><a href="lessons/info">Information</a></li>
-			<li><a href="lessons/signup">Sign up</a></li>
-		</ul>
+		<li><a href="lessons/">Lessons...</a>
+			<ul>
+				<li><a href="lessons/info">Information</a></li>
+				<li><a href="lessons/signup">Sign up</a></li>
+			</ul>
+		</li>
 		<li><a href="customer-page/specials/">Special items for our customers</a></li>
 	</ul>
 	<h4>Have fun!</h4>
 </body>
+</html>
